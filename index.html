@@ -5,1225 +5,778 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moyosore Baiye</title>
+  <title>Moyosore Baiye | Senior DevSecOps Engineer, DPO & DevOps Educator</title>
+  <meta name="description" content="Portfolio of Moyosore Baiye — Senior DevSecOps Engineer, Data Protection Officer (DPO) and DevOps Educator specializing in healthcare cloud infrastructure, HIPAA/NDPR compliance, AWS, Kubernetes, Terraform, and full-stack web platforms.">
 
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
+  <!-- OpenGraph Metadata -->
+  <meta property="og:title" content="Moyosore Baiye — Senior DevSecOps Engineer, DPO & Educator">
+  <meta property="og:description" content="Cloud & Security Leadership, Healthcare Infrastructure, HIPAA/NDPR Compliance, Kubernetes, Full-Stack Platforms & DevOps Mentorship.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/images/techHead.png">
 
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/android-chrome-192x192.png">
 
-  <!--
-    - google font link
-  -->
+  <!-- Google Fonts: Inter & JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Ionicons Icons -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body>
+  <div class="bg-ambient"></div>
+  <div class="grid-overlay"></div>
 
-  <!--
-    - #MAIN
-  -->
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="brand">
+        <div class="brand-text">
+          <span class="brand-name">Moyosore Baiye</span>
+          <span class="brand-role">Senior DevSecOps &bull; CDPO &bull; Educator</span>
+        </div>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#competencies" class="nav-link">Competencies</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education-mentorship" class="nav-link">Mentorship</a></li>
+        <li><a href="#certifications" class="nav-link">Credentials</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="assets/Moyosore_Baiye_DevSecOps_DPO_CV.pdf" target="_blank" class="btn btn-primary btn-sm">
+          <ion-icon name="document-text-outline"></ion-icon>
+          <span>Download CV</span>
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+      </div>
+    </div>
+  </header>
 
   <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/moyo.jpg" alt="Moyosore Baiye" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Moyosore Baiye">Yetunde Badmus</h1>
-
-          <p class="title">DevOps | Educator | Mentor</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:moyosorebaiye[at]gmail[dot]com" class="contact-link">moyosorebaiye[at]gmail[dot]com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="#" class="contact-link">Use LinkedIn please</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">Apr 26, 1995</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Lagos, Nigeria</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://www.facebook.com/moyosore.baiye/" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://twitter.com/preachschrist" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.instagram.com/mbaiye/" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/mbaiye/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            <ul>
-              <li>I am a DevOps Engineer, Foodie, YouTuber, Educator, Mentor.</li>
-              <li>Currently working at <a style="display: inline; color: rgb(255, 208, 0);" style="display: inline;" href="https://www.octosoft.ai">Octosoft Technologies Limited</a></li>
-              <li>Previously worked at <a style="display: inline; color: rgb(255, 208, 0);" href="https://webengage.com">WebEngage</a> & Ample</li>
-              <li>Mobann Technologies Instructor</li>
-              <li>CKA Certified (Certified Kubernetes Administrator)
-              <li>AWS Certified Soluion architect</li>
-              <li>AWS Community Builder</li>
-            </ul>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge-wrap">
+            <span class="status-pill">
+              <span class="status-dot"></span> Available for Strategic Cloud, Security & Advisory Roles
+            </span>
+            <span class="location-tag">
+              <ion-icon name="location-outline"></ion-icon> Lagos, Nigeria / Remote Global
+            </span>
+          </div>
+
+          <h1 class="hero-title">
+            Architecting Resilient Cloud Infrastructure & <span>Zero-Trust Security</span>
+          </h1>
+
+          <div class="hero-subtitle">
+            Senior DevSecOps Engineer & Team Lead
+            <span class="dpo-badge">Certified Data Protection Officer (CDPO)</span>
+            <span class="dpo-badge" style="background: rgba(16, 185, 129, 0.15); border-color: rgba(16, 185, 129, 0.35); color: #6EE7B7;">DevOps Educator</span>
+          </div>
+
+          <p class="hero-desc">
+            With 6+ years driving cloud architecture, security engineering, and compliance-by-design. I lead the DevOps team at a premier HealthTech firm, safeguarding critical clinical systems under HIPAA & NDPR while architecting production web platforms and cloud systems from the ground up. Passionate about empowering the next generation of engineers through hands-on DevOps education.
           </p>
-        </section>
 
+          <div class="hero-actions">
+            <a href="assets/Moyosore_Baiye_DevSecOps_DPO_CV.pdf" target="_blank" download class="btn btn-primary">
+              <ion-icon name="arrow-down-circle-outline"></ion-icon>
+              <span>Download Official CV</span>
+            </a>
+            <a href="#projects" class="btn btn-secondary">
+              <ion-icon name="layers-outline"></ion-icon>
+              <span>Explore Projects</span>
+            </a>
+            <a href="https://linkedin.com/in/moyobaiye" target="_blank" rel="noopener" class="btn btn-secondary">
+              <ion-icon name="logo-linkedin"></ion-icon>
+              <span>LinkedIn</span>
+            </a>
+          </div>
 
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">DevOps</h4>
-
-                <p class="service-item-text">
-                  Practicing DevOps since 7 years.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Devops Mentor" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mentoring</h4>
-
-                <p class="service-item-text">
-                  Mentoring students who aspire to become DevOps.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Instructor at Mobann Technologies Limited</h4>
-
-                <p class="service-item-text">
-                  You can find courses by me on Udemy.
-                  Microsoft Azure DevOps
-                  Microsoft Intune
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">YouTube</h4>
-
-                <p class="service-item-text">
-                  Creating DevOps related content to share knowledge & Experience.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  
-                  <img src="./assets/images/avatar-1.png" alt="Yashraj Singh Solanki" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Yashraj Singh Solanki</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Moyosore helped me to get onto the roadmap of DevOps and also helped me to clear the AWS Solution Architect Exam.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Rahul</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Moyosore is a great mentor who helped to get on track of DevOps practices during my initial days of first Job.
-                    I must say, I am doing good as DevOps after being mentored by him. 
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <!-- <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li> -->
-
-            <!-- <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li> -->
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+          <!-- Fast Metrics -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-number">6<span>+</span></div>
+              <div class="stat-label">Years Experience</div>
             </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
+            <div class="stat-item">
+              <div class="stat-number">99.99<span>%</span></div>
+              <div class="stat-label">Cloud Uptime</div>
             </div>
-
-          </section>
-
+            <div class="stat-item">
+              <div class="stat-number">100<span>s</span></div>
+              <div class="stat-label">Engineers Mentored</div>
+            </div>
+          </div>
         </div>
 
-
-        <!--
-          - clients
-        -->
-
-        <section class="clients">
-
-          <h3 class="h3 clients-title">Companies</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/digitalai.png" alt="digital.ai">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/webengage.png" alt="webengage">
-              </a>
-            </li>
-
-
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/ample.png" alt="ample">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/experitest.png" alt="experitest">
-              </a>
-            </li>
-
-            <!-- <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li> -->
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+        <!-- Avatar / Visual Display -->
+        <div class="hero-visual">
+          <div class="avatar-card">
+            <!-- Floating Security Badge Top -->
+            <div class="float-badge badge-top">
+              <div class="badge-icon blue">
+                <ion-icon name="shield-checkmark"></ion-icon>
+              </div>
+              <div>
+                <div class="badge-title">Certified DPO (CDPO)</div>
+                <div class="badge-desc">HIPAA & NDPR Aligned</div>
+              </div>
             </div>
 
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Senior DevOps(Digital-AI) </h4>
-
-              <span>2019 — Present</span>
-
-              <p class="timeline-text">
-                • Implementing Infrastructure as code(Terraform).<br>
-                • Getting Implemented Security Tools & Practices(Newrelic,Lacework).<br>
-                • Improvising on Configuration as Code(Jenkins).<br>
-                • Migration of on-premise architecture to AWS.<br>
-                • Keeping organization SOC2 Compliant.<br>
-                • Designing architecture for on-prem & SaaS customers.<br>
-
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Senior DevOps Engineer (WebEngage) </h4>
-
-              <span>2016 — 2019</span>
-
-              <p class="timeline-text">
-                • Automated infrastructure provisioning and orchestration of more than 1000 servers on AWS and Google Cloud using Chef.<br>
-                • Lead and completed migration of databases like Elasticsearch, MySQL from EC2-Classic to VPC.<br>
-                • Completed migration of various micro-services inside VPC.<br>
-                • Handled Elasticsearch cluster setup and handling with TBs of data.<br>
-                • Reduced cost and increased performance of Elasticsearch cluster by setting it up with half capacity on Spot instances using spot-fleet.<br>
-                • Operated MySQL replication with master-slave architecture.<br>
-                • Lead MySQL database migration from EC2 to RDS with no downtime using Database-Migration-Service (DMS).<br>
-                • Optimised cost and saved more than $100000 in a year on AWS bills with various cost optimization techniques.<br>
-                • Implemented scalable infrastructure using AWS Autoscaling.<br>
-                • Design and developed a micro-service for lag reporting using Python + RDS + AWS Lambda + Slack-command.<br>
-                • Centralized-LoggingusingEFK(Elasticsearch+Fluentd+Kibana).
-                • Kubernetes Cluster set upon AWS using KOPS and on GCP using GKE(Google Kontainer Engine).<br>
-                • Setting up of EFK on Kubernetes using fluentd daemonset.<br>
-                • CI/CD using Jenkins.<br>
-                • Deployment of couple of service using Ansible.<br>
-                • Monitoring & alerting using Datadog.<br>
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">DevOps Engineer (Ample) </h4>
-
-              <span>2015 — 2016</span>
-
-              <p class="timeline-text">
-                • Infrastructure setup using Ansible on AWS.<br>
-                • Monitoring & alerting using Newrelic.<br>
-                • Deployment automation using Ansible and Ansijet.<br> 
-                • CI/CD using Jenkins.<br>
-                • Load testing using Locust.<br>
-                • Various automation script for backups.<br>
-                • Setup Consul.<br> 
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+            <div class="avatar-wrapper">
+              <img src="./assets/images/techHead.png" alt="Moyosore Baiye - Senior DevSecOps Engineer" class="avatar-img">
             </div>
 
-            <h3 class="h3">Education</h3>
+            <!-- Floating Kubernetes Badge Bottom -->
+            <div class="float-badge badge-bottom">
+              <div class="badge-icon green">
+                <ion-icon name="school-outline"></ion-icon>
+              </div>
+              <div>
+                <div class="badge-title">DevOps Educator</div>
+                <div class="badge-desc">Mentor & Community Leader</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Competencies Section -->
+    <section class="section" id="competencies">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Core Disciplines</span>
+          <h2 class="section-title">Specialized Engineering, Governance & Education</h2>
+          <p class="section-desc">
+            Bridging cloud scalability, continuous delivery pipelines, stringent regulatory compliance, and high-impact engineering mentorship.
+          </p>
+        </div>
+
+        <div class="competency-grid">
+          <div class="glass-panel competency-card">
+            <div class="comp-icon-box">
+              <ion-icon name="shield-half-outline"></ion-icon>
+            </div>
+            <h3 class="comp-title">DevSecOps & Shift-Left Security</h3>
+            <p class="comp-desc">
+              Embedding automated security gates within CI/CD. Comprehensive container vulnerability scanning (Trivy), static analysis, IAM least-privilege, and automated secrets lifecycle management.
+            </p>
+            <div class="comp-tags">
+              <span class="tag-badge">IAM Hardening</span>
+              <span class="tag-badge">Vulnerability Scanning</span>
+              <span class="tag-badge">Secrets Management</span>
+              <span class="tag-badge">OWASP Top 10</span>
+            </div>
           </div>
 
-          <ol class="timeline-list">
+          <div class="glass-panel competency-card">
+            <div class="comp-icon-box emerald">
+              <ion-icon name="lock-closed-outline"></ion-icon>
+            </div>
+            <h3 class="comp-title">Data Protection & Compliance (DPO)</h3>
+            <p class="comp-desc">
+              Directing data protection office responsibilities for healthcare platforms. Conducting DPIAs, enforcing HIPAA, NDPR & GDPR standards, and encrypting sensitive patient records at-rest and in-transit.
+            </p>
+            <div class="comp-tags">
+              <span class="tag-badge">HIPAA Compliance</span>
+              <span class="tag-badge">NDPR / GDPR</span>
+              <span class="tag-badge">DPIA Assessments</span>
+              <span class="tag-badge">Data Privacy</span>
+            </div>
+          </div>
 
-            <li class="timeline-item">
+          <div class="glass-panel competency-card">
+            <div class="comp-icon-box indigo">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+            <h3 class="comp-title">DevOps Education & Mentorship</h3>
+            <p class="comp-desc">
+              Years of experience teaching Linux, Docker, Kubernetes, AWS, and CI/CD pipelines. Passionate about empowering aspiring cloud engineers with real-world, production-ready skills and fostering collaborative team cultures.
+            </p>
+            <div class="comp-tags">
+              <span class="tag-badge">Curriculum Design</span>
+              <span class="tag-badge">Hands-On Labs</span>
+              <span class="tag-badge">Career Coaching</span>
+              <span class="tag-badge">Culture Shift</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-              <h4 class="h4 timeline-item-title">MCA (IIPS-DAVV) </h4>
+    <!-- Professional Experience Timeline -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Career Track</span>
+          <h2 class="section-title">Leadership & Track Record</h2>
+          <p class="section-desc">
+            Demonstrated impact across high-growth health technology, government agency platforms, and infrastructure engineering.
+          </p>
+        </div>
 
-              <span>2015 </span>
-
-              <p class="timeline-text">
-               Completed MCA with 8.9 CGPA. 
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">BCA (IIPS-DAVV) </h4>
-
-              <span>2012</span>
-
-              <p class="timeline-text">
-                Completed BCA with 8.6 CGPA. 
-              </p>
-
-            </li>
-
-            
-
-          </ol>
-
-        </section>
-        <!--
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Certification</h5>
-                <data value="80">80%</data>
+        <div class="timeline">
+          <!-- Experience 1 -->
+          <div class="timeline-item current">
+            <div class="timeline-dot"></div>
+            <div class="glass-panel timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">DevOps Team Lead & Data Protection Officer (DPO)</h3>
+                  <div class="timeline-company">
+                    Octosoft Technologies Limited &bull; HealthTech Systems
+                    <span class="timeline-badge">Current</span>
+                  </div>
+                </div>
+                <div class="timeline-date">07/2022 — Present</div>
               </div>
+              <ul class="timeline-bullets">
+                <li><strong>Cloud Architecture & Leadership:</strong> Spearhead the DevOps team building, scaling, and maintaining mission-critical HIPAA-aligned AWS infrastructure for healthcare software solutions.</li>
+                <li><strong>Data Protection Officer (DPO):</strong> Author and enforce institutional data privacy policies, perform DPIA audits, safeguard protected health information (PHI), and guarantee NDPR/HIPAA compliance.</li>
+                <li><strong>IaC Acceleration:</strong> Standardized modular Terraform modules and CloudFormation stacks, reducing new cloud environment provisioning time from days to under 30 minutes.</li>
+                <li><strong>Continuous Integration & Delivery:</strong> Standardized robust CI/CD pipelines via GitHub Actions, implementing automated vulnerability scanning, automated testing, and zero-downtime releases.</li>
+                <li><strong>Observability & Incident Response:</strong> Built comprehensive CloudWatch, Prometheus, and Grafana monitoring baselines, driving application uptime to 99.99% and cutting MTTD by 60%.</li>
+                <li><strong>DevOps Education & Mentorship:</strong> Facilitated internal masterclasses and workshops, upskilling engineering peers and mentoring interns in modern containerization and secure deployment practices.</li>
+              </ul>
+            </div>
+          </div>
 
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
+          <!-- Experience 2 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="glass-panel timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">IT Manager</h3>
+                  <div class="timeline-company">Lagos State Coroner System &bull; Public Sector Government Agency</div>
+                </div>
+                <div class="timeline-date">01/2020 — 06/2022</div>
               </div>
+              <ul class="timeline-bullets">
+                <li>Directed complete infrastructure administration, security protocols, and web operations for a vital Lagos State agency, maintaining 99.9% uptime.</li>
+                <li>Boosted system performance by 50% through database query optimization, server-side caching, and network traffic tuning.</li>
+                <li>Enforced rigorous compliance with government data protection standards, strict role-based access controls, and automated disaster recovery backups.</li>
+              </ul>
+            </div>
+          </div>
 
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
+          <!-- Experience 3 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="glass-panel timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">AWS / Linux Systems Trainee</h3>
+                  <div class="timeline-company">TTC Mobile World USA &bull; Cloud Infrastructure</div>
+                </div>
+                <div class="timeline-date">10/2020 — 03/2021</div>
               </div>
+              <ul class="timeline-bullets">
+                <li>Designed highly resilient multi-AZ AWS topologies featuring Application Load Balancers and Auto Scaling groups.</li>
+                <li>Automated server configuration baselines and application deployments with Ansible, Docker, and Jenkins CI/CD.</li>
+                <li>Established IAM security permission boundaries and configured proactive CloudWatch metric alarms.</li>
+              </ul>
+            </div>
+          </div>
 
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
+          <!-- Experience 4 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="glass-panel timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">DevOps Intern</h3>
+                  <div class="timeline-company">Venture Garden Group &bull; Fintech & Digital Systems</div>
+                </div>
+                <div class="timeline-date">01/2020 — 06/2020</div>
               </div>
+              <ul class="timeline-bullets">
+                <li>Developed containerized application images using Docker and supported CI/CD pipeline deployments.</li>
+                <li>Configured Linux server environments, DNS resolution, LDAP authentication, and SSH access auditing.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            </li>
+    <!-- Selected Projects & Built Platforms -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Featured Work</span>
+          <h2 class="section-title">Architectural Impact & Built Platforms</h2>
+          <p class="section-desc">
+            Production-grade systems, commercial web applications built from the ground up, and cloud platforms engineered for reliability.
+          </p>
+        </div>
 
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-      -->
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Certifications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Udemy Instructor</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>YouTube</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Certifications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Udemy Instructor</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>YouTube</button>
-              </li>
-
+        <div class="projects-grid">
+          <!-- Project 1: CleanCoat Contractors Ltd -->
+          <div class="glass-panel project-card">
+            <div class="project-category">
+              <span class="project-tag">Full-Stack & Cloud Platform</span>
+              <a href="https://cleancoatcontractorsltd.co.uk/" target="_blank" rel="noopener" class="project-status production" style="text-decoration: none;">
+                cleancoatcontractorsltd.co.uk ↗
+              </a>
+            </div>
+            <h3 class="project-title">CleanCoat Contractors UK Platform</h3>
+            <p class="project-desc">
+              Architected and built the full-stack commercial web platform for a UK-based commercial and residential services contractor from the ground up. Features instant multi-service quote calculators, automated booking workflows, and responsive UI.
+            </p>
+            <ul class="project-highlights">
+              <li>Built from the ground up with high performance, SEO optimization, and mobile-first UX</li>
+              <li>Engineered interactive quote estimator workflows for instant customer onboarding</li>
+              <li>Automated CI/CD deployment pipelines ensuring rapid zero-downtime updates</li>
             </ul>
-
+            <div class="project-stack">
+              <span class="stack-item">Next.js</span>
+              <span class="stack-item">React</span>
+              <span class="stack-item">Node.js</span>
+              <span class="stack-item">Tailwind / CSS</span>
+              <span class="stack-item">CI/CD</span>
+            </div>
           </div>
 
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="youtube">
-              <a href="https://www.youtube.com/c/Appychip">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/appychip.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Appychip </h3>
-
-                <p class="project-category">YouTube </p>
-
+          <!-- Project 2: Havilah Image Developments -->
+          <div class="glass-panel project-card">
+            <div class="project-category">
+              <span class="project-tag">Enterprise Portal & Finance Engine</span>
+              <a href="https://havilah.ng/" target="_blank" rel="noopener" class="project-status production" style="text-decoration: none;">
+                havilah.ng ↗
               </a>
-            </li>
-            <!---
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://www.youtube.com/c/TechoDex">
+            </div>
+            <h3 class="project-title">Havilah Image Developments Corporate Web Platform</h3>
+            <p class="project-desc">
+              Designed and built from scratch the corporate web portal and investment yield calculation engine for an architect-led real estate and construction firm. Includes interactive ROI calculators, dynamic project showcases, and secure inquiries.
+            </p>
+            <ul class="project-highlights">
+              <li>Built from the ground up with interactive real estate investment ROI calculation tools</li>
+              <li>Integrated architectural portfolio showcases, case studies, and corporate governance</li>
+              <li>Optimized for speed, uptime, responsive layouts, and lead acquisition</li>
+            </ul>
+            <div class="project-stack">
+              <span class="stack-item">Web Platform</span>
+              <span class="stack-item">JavaScript</span>
+              <span class="stack-item">Interactive ROI Engine</span>
+              <span class="stack-item">Cloud Hosting</span>
+            </div>
+          </div>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+          <!-- Project 3: HealthTech Cloud Platform -->
+          <div class="glass-panel project-card">
+            <div class="project-category">
+              <span class="project-tag">HealthTech Cloud Infrastructure</span>
+              <span class="project-status production">Production &bull; Active</span>
+            </div>
+            <h3 class="project-title">HIPAA-Compliant AWS Healthcare Platform</h3>
+            <p class="project-desc">
+              High-availability AWS cloud foundation hosting mission-critical healthcare systems. Built with security-by-design principles to process sensitive clinical records safely.
+            </p>
+            <ul class="project-highlights">
+              <li>99.99% production uptime with proactive multi-layer alerting</li>
+              <li>Encrypted at rest (AWS KMS) and in-transit (TLS 1.3) with IAM least privilege</li>
+              <li>Automated immutable audit logging aligned with HIPAA & NDPR mandates</li>
+            </ul>
+            <div class="project-stack">
+              <span class="stack-item">AWS EC2/RDS/S3</span>
+              <span class="stack-item">Terraform</span>
+              <span class="stack-item">Docker</span>
+              <span class="stack-item">GitHub Actions</span>
+              <span class="stack-item">CloudWatch</span>
+            </div>
+          </div>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">TechoDex </h3>
-
-                <p class="project-category">YouTube </p>
-
+          <!-- Project 4: VeriBuy Marketplace -->
+          <div class="glass-panel project-card">
+            <div class="project-category">
+              <span class="project-tag">Co-Founder & CTO &bull; Venture</span>
+              <a href="https://www.veribuy.shop/" target="_blank" rel="noopener" class="project-status production" style="text-decoration: none;">
+                veribuy.shop ↗
               </a>
-            </li>
-          -->
-            <li class="project-item  active" data-filter-item data-category="certifications">
-              <a href="https://www.credly.com/earner/earned/badge/f8189f9c-8219-4a89-af02-8bc966e30560">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/aws-certified-solutions-architec (2).png" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">AWS Solutions Architect - Associate </h3>
-
-                <p class="project-category">Certifications</p>
-
-              </a>
-            </li>
-            
-            <li class="project-item  active" data-filter-item data-category="certifications">
-              <a href="https://www.credly.com/earner/earned/badge/f8189f9c-8219-4a89-af02-8bc966e30560">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/cka.png" alt="CKA" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">CKA - Certified Kubernetes Administrator</h3>
-
-                <p class="project-category">Certifications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="udemy instructor">
-              <a href="https://www.udemy.com/course/microsoft-intune-training-mdm-mam-endpoint-manager/">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/p1 (1).png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Microsoft Intune Training | MDM MAM - Endpoint Manager Azure </h3>
-
-                <p class="project-category">Udemy Instructor</p>
-
-              </a>
-            </li>
-            <!--
-            <li class="project-item  active" data-filter-item data-category="Certification">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Certification</p>
-
-              </a>
-            </li>
-          
-            <li class="project-item  active" data-filter-item data-category="Certification">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Certification</p>
-
-              </a>
-            </li>
-          
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-          -->
-            <li class="project-item  active" data-filter-item data-category="udemy instructor">
-              <a href="https://www.udemy.com/course/master-azure-devops-from-scratch-automate-app-lifecycle/">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/azure.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Microsoft Azure DevOps From Scratch - Automate App Lifecycle </h3>
-
-                <p class="project-category">Udemy </p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="youtube">
-              <a href="https://www.youtube.com/channel/UCGV0Dih0e6B-czYyqwfEtiA">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/ajeet(1).png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Ajeet Khan </h3>
-
-                <p class="project-category">YouTube </p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="https://jee-appy.blogspot.com/2016/10/debug-postgresql-performance-issues.html">
-
-                <figure class="blog-banner-box">
-                   
-                  <img src="./assets/images/1.png" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Debug Slow Performance of Postgresql Database</h3>
-
-                  <p class="blog-text">
-                    Steps to debug and find Postgresql Performance Issues.
-
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="https://jee-appy.blogspot.com/2016/10/Regular-purging-disk-snapshot.html">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Google Cloud Disks Snapshot Purging </h3>
-
-                  <p class="blog-text">
-                    A script to purge snapshots of Google cloud disks.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="https://jee-appy.blogspot.com/2015/04/deploy-django-project-on-apache-using.html">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/3.jpeg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Deploy Django App on VPS </h3>
-
-                  <p class="blog-text">
-                    A tutorial on "How to Deploy Django app on VPS with virtualenv, modwsgi, apache, mysql".
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="https://jee-appy.blogspot.com/2015/12/postgresql-database-backup-to-s3-backup.html">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/4.jpeg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Postgresql Database Backup Script</h3>
-
-                  <p class="blog-text">
-                    A shell script which takes the dump of postgresql database and stores the dump to S3.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="https://medium.com/@i.ajeetkhan/aws-nacl-vs-aws-security-group-sg-difference-use-case-102caa96ec99">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/5.jpeg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">AWS NACL Vs AWS Security Group (SG) | Differences & Use-Cases </h3>
-
-                  <p class="blog-text">
-                    To understand the differences and use cases of AWS NACL and Security Group. 
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="https://medium.com/cloud-academy-inc/setup-kubernetes-on-aws-using-kops-877f02d12fc1">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/6.png" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Setup Kubernetes On AWS Using KOPS </h3>
-
-                  <p class="blog-text">
-                    Detailed steps to make the kubernetes cluster up and running using the tool KOPS.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJe1fGdn_3YjkRllRB5Q3TIZQ&key=AIzaSyDbOIigNboBVvIGOlKQ4JB_KHqxP2a9lEg""
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <h3 class="project-title">VeriBuy — Verified Electronics Marketplace & Trust Lens™</h3>
+            <p class="project-desc">
+              Architected and built from the ground up: a trusted marketplace for pre-owned electronics with automated 15-digit IMEI verification, GSMA blacklist checks, Stripe 100% escrow protection, and live online proxy bidding.
+            </p>
+            <ul class="project-highlights">
+              <li>Engineered the proprietary 4-stage Trust Lens™ hardware & cloud lock authentication protocol</li>
+              <li>Built 100% escrow checkout architecture with 48-hour buyer inspection protection</li>
+              <li>Implemented live online auction engine with anti-sniping soft-close protection</li>
+            </ul>
+            <div class="project-stack">
+              <span class="stack-item">Next.js</span>
+              <span class="stack-item">React</span>
+              <span class="stack-item">Node.js</span>
+              <span class="stack-item">FastAPI</span>
+              <span class="stack-item">PostgreSQL</span>
+              <span class="stack-item">Escrow Architecture</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dedicated DevOps Education & Mentorship Section -->
+    <section class="section" id="education-mentorship">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">DevOps Education & Mentorship</span>
+          <h2 class="section-title">Teaching, Training & Community Building</h2>
+          <p class="section-desc">
+            Deep passion for democratizing cloud engineering, guiding aspiring engineers from fundamentals to production mastery.
+          </p>
+        </div>
+
+        <div class="glass-panel competency-card" style="padding: 36px; margin-bottom: 24px;">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 28px;">
+            <div>
+              <div class="comp-icon-box" style="background: rgba(14, 165, 233, 0.15); color: var(--accent-cyan);">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 style="font-size: 1.25rem; margin-bottom: 10px; color: var(--text-primary);">Curriculum & Hands-On Workshops</h3>
+              <p style="font-size: 0.93rem; color: var(--text-secondary); line-height: 1.6;">
+                Engineered experiential learning modules focused on real-world scenarios: building zero-downtime CI/CD workflows, orchestrating microservices on Kubernetes, configuring Infrastructure as Code with Terraform, and hardening Linux production boxes.
+              </p>
             </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <div>
+              <div class="comp-icon-box emerald">
+                <ion-icon name="people-outline"></ion-icon>
+              </div>
+              <h3 style="font-size: 1.25rem; margin-bottom: 10px; color: var(--text-primary);">1-on-1 Mentorship & Career Guidance</h3>
+              <p style="font-size: 0.93rem; color: var(--text-secondary); line-height: 1.6;">
+                Coached and mentored junior engineers, system administrators, and software developers transitioning into specialized DevOps and DevSecOps careers, equipping them with resume reviews, mock architectural interviews, and production portfolio projects.
+              </p>
+            </div>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
+            <div>
+              <div class="comp-icon-box indigo">
+                <ion-icon name="hardware-chip-outline"></ion-icon>
+              </div>
+              <h3 style="font-size: 1.25rem; margin-bottom: 10px; color: var(--text-primary);">DevSecOps Culture Transformation</h3>
+              <p style="font-size: 0.93rem; color: var(--text-secondary); line-height: 1.6;">
+                Advocating for the cultural shift from siloed operations to unified DevSecOps. Training cross-functional product and engineering teams on automated testing, shift-left vulnerability mitigation, and shared reliability accountability.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          </form>
+    <!-- Industry Certifications & Academic Background -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Credentials</span>
+          <h2 class="section-title">Industry Certifications & Education</h2>
+          <p class="section-desc">
+            Validated cloud architecture, cloud native orchestration, and computer science degrees.
+          </p>
+        </div>
 
-        </section>
+        <div class="cert-grid">
+          <!-- CDPO -->
+          <div class="glass-panel cert-card">
+            <div class="cert-icon-wrap" style="background: rgba(14, 165, 233, 0.15); color: var(--accent-cyan); font-size: 2rem;">
+              <ion-icon name="shield-checkmark"></ion-icon>
+            </div>
+            <h3 class="cert-name">Certified Data Protection Officer (CDPO)</h3>
+            <div class="cert-issuer">Data Governance & Compliance</div>
+            <div class="cert-id">HIPAA &bull; NDPR &bull; GDPR</div>
+          </div>
 
-      </article>
+          <!-- KCNA -->
+          <div class="glass-panel cert-card">
+            <div class="cert-icon-wrap">
+              <img src="./assets/images/cka.png" alt="Kubernetes KCNA" class="cert-icon-img">
+            </div>
+            <h3 class="cert-name">Kubernetes & Cloud Native Associate (KCNA)</h3>
+            <div class="cert-issuer">The Linux Foundation</div>
+            <div class="cert-id">Cloud Native Orchestration & Containers</div>
+          </div>
 
-    </div>
+          <!-- AWS SAA -->
+          <div class="glass-panel cert-card">
+            <div class="cert-icon-wrap">
+              <img src="./assets/images/AWS-Certified-Solutions-Architec (1).png" alt="AWS Certified Solutions Architect" class="cert-icon-img">
+            </div>
+            <h3 class="cert-name">AWS Certified Solutions Architect — Associate</h3>
+            <div class="cert-issuer">Amazon Web Services</div>
+            <div class="cert-id">Exam: SAA-C02 &bull; Dec 2021</div>
+          </div>
 
+          <!-- Azure AZ-204 -->
+          <div class="glass-panel cert-card">
+            <div class="cert-icon-wrap">
+              <img src="./assets/images/azure.jpg" alt="Microsoft Azure Developer Associate" class="cert-icon-img">
+            </div>
+            <h3 class="cert-name">Microsoft Azure Developer Associate</h3>
+            <div class="cert-issuer">Microsoft</div>
+            <div class="cert-id">Exam: AZ-204 &bull; Sep 2021</div>
+          </div>
+
+          <!-- Azure AZ-104 -->
+          <div class="glass-panel cert-card">
+            <div class="cert-icon-wrap">
+              <img src="./assets/images/azure.jpg" alt="Microsoft Azure Administrator" class="cert-icon-img">
+            </div>
+            <h3 class="cert-name">Microsoft Azure Administrator Associate</h3>
+            <div class="cert-issuer">Microsoft</div>
+            <div class="cert-id">Exam: AZ-104 &bull; Feb 2021</div>
+          </div>
+
+          <!-- Azure AZ-700 -->
+          <div class="glass-panel cert-card">
+            <div class="cert-icon-wrap">
+              <img src="./assets/images/azure.jpg" alt="Microsoft Azure Network Engineer" class="cert-icon-img">
+            </div>
+            <h3 class="cert-name">Microsoft Azure Network Engineer Associate</h3>
+            <div class="cert-issuer">Microsoft</div>
+            <div class="cert-id">Exam: AZ-700 &bull; Sep 2022</div>
+          </div>
+
+          <!-- AWS Cloud Practitioner -->
+          <div class="glass-panel cert-card">
+            <div class="cert-icon-wrap">
+              <img src="./assets/images/AWS-Certified-Solutions-Architec (1).png" alt="AWS Cloud Practitioner" class="cert-icon-img">
+            </div>
+            <h3 class="cert-name">AWS Certified Cloud Practitioner</h3>
+            <div class="cert-issuer">Amazon Web Services</div>
+            <div class="cert-id">Exam: CLF-C01 &bull; Aug 2022</div>
+          </div>
+
+          <!-- Azure DP-900 -->
+          <div class="glass-panel cert-card">
+            <div class="cert-icon-wrap">
+              <img src="./assets/images/azure.jpg" alt="Microsoft Azure Data Fundamentals" class="cert-icon-img">
+            </div>
+            <h3 class="cert-name">Microsoft Azure Data Fundamentals</h3>
+            <div class="cert-issuer">Microsoft</div>
+            <div class="cert-id">Exam: DP-900 &bull; May 2021</div>
+          </div>
+
+          <!-- Google IT Automation -->
+          <div class="glass-panel cert-card">
+            <div class="cert-icon-wrap" style="background: rgba(234, 67, 53, 0.12); color: #EA4335; font-size: 2rem;">
+              <ion-icon name="logo-google"></ion-icon>
+            </div>
+            <h3 class="cert-name">Google IT Automation Professional Certificate</h3>
+            <div class="cert-issuer">Google & Coursera</div>
+            <div class="cert-id">Python & Automation &bull; Apr 2022</div>
+          </div>
+
+          <!-- Google IT Support -->
+          <div class="glass-panel cert-card">
+            <div class="cert-icon-wrap" style="background: rgba(66, 133, 244, 0.12); color: #4285F4; font-size: 2rem;">
+              <ion-icon name="hardware-chip-outline"></ion-icon>
+            </div>
+            <h3 class="cert-name">Google IT Support Professional Certificate</h3>
+            <div class="cert-issuer">Google & Coursera</div>
+            <div class="cert-id">Systems & Support &bull; Oct 2021</div>
+          </div>
+
+          <!-- Google Africa Developer Program -->
+          <div class="glass-panel cert-card">
+            <div class="cert-icon-wrap" style="background: rgba(52, 168, 83, 0.12); color: #34A853; font-size: 2rem;">
+              <ion-icon name="globe-outline"></ion-icon>
+            </div>
+            <h3 class="cert-name">Google Africa Developer Training: Mobile Web</h3>
+            <div class="cert-issuer">Google Developers</div>
+            <div class="cert-id">Mobile Web Development &bull; Feb 2021</div>
+          </div>
+        </div>
+
+        <!-- Academic Background Grid -->
+        <div style="margin-top: 32px;" class="glass-panel competency-card">
+          <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 16px;">
+            <div class="comp-icon-box" style="margin-bottom: 0;">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+            <div>
+              <h3 style="font-size: 1.25rem;">Academic Credentials</h3>
+              <p style="font-size: 0.88rem; color: var(--text-muted);">Formal foundation in Computer Science & Information Technology</p>
+            </div>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; padding-top: 8px;">
+            <div style="background: rgba(30, 41, 59, 0.5); padding: 18px 22px; border-radius: var(--radius-md); border: 1px solid var(--bg-card-border);">
+              <div style="font-weight: 700; color: var(--text-primary); font-size: 1.1rem;">Master of Science in Information Technology</div>
+              <div style="color: var(--accent-cyan); font-size: 0.92rem; margin-top: 4px; font-weight: 500;">University of Lagos (UNILAG)</div>
+              <div style="font-family: var(--font-mono); color: var(--text-muted); font-size: 0.82rem; margin-top: 6px;">January 2022 — January 2024</div>
+            </div>
+            <div style="background: rgba(30, 41, 59, 0.5); padding: 18px 22px; border-radius: var(--radius-md); border: 1px solid var(--bg-card-border);">
+              <div style="font-weight: 700; color: var(--text-primary); font-size: 1.1rem;">Bachelor of Technology in Computer Science</div>
+              <div style="color: var(--accent-cyan); font-size: 0.92rem; margin-top: 4px; font-weight: 500;">Federal University of Technology Akure (FUTA)</div>
+              <div style="font-family: var(--font-mono); color: var(--text-muted); font-size: 0.82rem; margin-top: 6px;">September 2014 — December 2019</div>
+            </div>
+            <div style="background: rgba(30, 41, 59, 0.5); padding: 18px 22px; border-radius: var(--radius-md); border: 1px solid var(--bg-card-border);">
+              <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                <div style="font-weight: 700; color: var(--text-primary); font-size: 1.1rem;">Advanced Diploma in Software Engineering</div>
+                <span style="font-size: 0.72rem; padding: 2px 8px; background: rgba(16, 185, 129, 0.15); color: #34D399; border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 9999px; font-weight: 700;">Distinction</span>
+              </div>
+              <div style="color: var(--accent-cyan); font-size: 0.92rem; margin-top: 4px; font-weight: 500;">Aptech Computer Education Nigeria</div>
+              <div style="font-family: var(--font-mono); color: var(--text-muted); font-size: 0.82rem; margin-top: 6px;">2010 — 2012</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comprehensive Skills Matrix -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Technical Matrix</span>
+          <h2 class="section-title">Skills & Tooling Ecosystem</h2>
+          <p class="section-desc">
+            Technologies and frameworks utilized regularly in production platforms and security posture hardening.
+          </p>
+        </div>
+
+        <div class="skills-matrix-wrap">
+          <div class="glass-panel skills-group">
+            <h3 class="skills-group-title">
+              <ion-icon name="shield-checkmark-outline"></ion-icon>
+              Security, DPO & Governance
+            </h3>
+            <div class="skills-pills">
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>HIPAA Compliance</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>NDPR / GDPR</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>DPIA Assessments</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>IAM Least-Privilege</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>Secrets Vault / KMS</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>Trivy / Snyk Scan</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>Data Encryption</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>OWASP Top 10</span>
+            </div>
+          </div>
+
+          <div class="glass-panel skills-group">
+            <h3 class="skills-group-title">
+              <ion-icon name="cloud-outline"></ion-icon>
+              Cloud & Infrastructure as Code
+            </h3>
+            <div class="skills-pills">
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>AWS (VPC, EC2, RDS, S3)</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>Microsoft Azure</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>Terraform (IaC)</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>CloudFormation</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>Docker Containers</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>Kubernetes (KCNA)</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>Multi-AZ Architecture</span>
+            </div>
+          </div>
+
+          <div class="glass-panel skills-group">
+            <h3 class="skills-group-title">
+              <ion-icon name="git-branch-outline"></ion-icon>
+              CI/CD, Mentorship & Observability
+            </h3>
+            <div class="skills-pills">
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>GitHub Actions</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>Jenkins Automation</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>DevOps Training</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>AWS CloudWatch</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>Prometheus & Grafana</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>Zero-Downtime Deploy</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>Mentorship</span>
+            </div>
+          </div>
+
+          <div class="glass-panel skills-group">
+            <h3 class="skills-group-title">
+              <ion-icon name="code-slash-outline"></ion-icon>
+              Full-Stack & Databases
+            </h3>
+            <div class="skills-pills">
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>Next.js & React</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>Node.js</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>Python</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>Bash / Shell Scripting</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>C#</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>FastAPI</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>PostgreSQL</span>
+              <span class="skill-pill"><ion-icon name="checkmark-circle"></ion-icon>MySQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Direct Engagement -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="glass-panel contact-card">
+          <div class="contact-glow"></div>
+          <div class="contact-content">
+            <span class="section-tag">Let's Connect</span>
+            <h2 class="contact-title">Ready to Elevate Your Cloud Security & Platform Engineering?</h2>
+            <p class="contact-desc">
+              Whether you need senior DevSecOps leadership, health tech infrastructure hardening, DPO compliance guidance, or DevOps training and mentorship for your team, I’d love to connect.
+            </p>
+
+            <div class="contact-links">
+              <a href="mailto:moyosorebaiye@gmail.com" class="btn btn-primary">
+                <ion-icon name="mail-outline"></ion-icon>
+                <span>moyosorebaiye@gmail.com</span>
+              </a>
+              <a href="tel:+2347064379501" class="btn btn-secondary">
+                <ion-icon name="call-outline"></ion-icon>
+                <span>+234 706 437 9501</span>
+              </a>
+              <a href="https://linkedin.com/in/moyobaiye" target="_blank" rel="noopener" class="btn btn-secondary">
+                <ion-icon name="logo-linkedin"></ion-icon>
+                <span>LinkedIn Profile</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        &copy; 2026 Moyosore Baiye. All rights reserved. Built for high performance & security.
+      </div>
+      <div class="footer-socials">
+        <a href="https://github.com/mbaiye" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://linkedin.com/in/moyobaiye" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a href="mailto:moyosorebaiye@gmail.com" class="social-btn" aria-label="Email">
+          <ion-icon name="mail-outline"></ion-icon>
+        </a>
+      </div>
+    </div>
+  </footer>
 
-
-
-
-
-  <!--
-    - custom js link
-  -->
+  <!-- Scripts -->
   <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 </body>
 
 </html>
