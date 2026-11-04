@@ -1,41 +1,25 @@
 # Moyosore Baiye
 
-> **Senior DevSecOps Engineer & Team Lead | Certified Data Protection Officer (CDPO) | DevOps Educator**
+Portfolio of Moyosore Baiye: Senior DevSecOps Engineer and Team Lead, Certified Data Protection Officer and DevOps educator.
 
-World-class professional portfolio showcasing cloud-native infrastructure, compliance-by-design (HIPAA & NDPR/GDPR), Kubernetes orchestration, full-stack platforms, and engineering mentorship.
+Live site: https://mbaiye.github.io/moyosore.baiye/
 
----
+## Editing the site
 
-### 🌐 Connect & Links
-- **Email**: [moyosorebaiye@gmail.com](mailto:moyosorebaiye@gmail.com)
-- **LinkedIn**: [linkedin.com/in/moyobaiye](https://www.linkedin.com/in/moyobaiye)
-- **GitHub**: [github.com/mbaiye](https://github.com/mbaiye)
+The pages are static and GitHub Pages serves this branch as-is, so generated files are committed.
 
----
+| To change | Edit |
+| --- | --- |
+| Text | `_src/content.json` |
+| Dates, links, certifications, skills | `_src/build.py` |
+| Styling and behaviour | `assets/css/style.css`, `assets/js/script.js` |
 
-### 🚀 Production Platforms Built
-- **[VeriBuy](https://www.veribuy.shop/)** — Verified electronics marketplace with 15-digit IMEI verification, GSMA checks, 100% escrow protection, and online auctions.
-- **[CleanCoat Contractors UK](https://cleancoatcontractorsltd.co.uk/)** — Commercial web platform with instant multi-service quote calculation engine.
-- **[Havilah Image Developments](https://havilah.ng/)** — Corporate portal and interactive real estate investment yield modeling engine.
+Then regenerate the pages (Python 3, no dependencies) and commit the result:
 
----
+```bash
+python3 _src/build.py
+```
 
-### 🏅 Certifications & Professional Training
-- **Certified Data Protection Officer (CDPO)**
-- **AWS Certified Solutions Architect — Associate** (SAA-C02)
-- **AWS Certified Cloud Practitioner** (CLF-C01)
-- **Kubernetes and Cloud Native Associate (KCNA)** — The Linux Foundation
-- **Microsoft Certified: Azure Developer Associate** (AZ-204)
-- **Microsoft Certified: Azure Administrator Associate** (AZ-104)
-- **Microsoft Certified: Azure Network Engineer Associate** (AZ-700)
-- **Microsoft Certified: Azure Data Fundamentals** (DP-900)
-- **Google IT Automation Professional Certificate** — Google & Coursera
-- **Google IT Support Professional Certificate** — Google & Coursera
-- **Google Africa Developer Training Program** (Mobile Web Development)
+If the site moves to a custom domain, update `SITE_URL` in `_src/build.py`.
 
----
-
-### 🎓 Academic & Professional Education
-- **Master of Science in Information Technology** — University of Lagos (Jan 2022 — Jan 2024)
-- **Bachelor of Technology in Computer Science** — Federal University of Technology Akure (Sep 2014 — Dec 2019)
-- **Advanced Diploma in Software Engineering (Graduated with Distinction)** — Aptech Nigeria (2010 — 2012)
+Do not edit `index.html` directly: the next build overwrites it.

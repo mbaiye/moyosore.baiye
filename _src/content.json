@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "title": "Moyosore Baiye | Senior DevSecOps Engineer, Certified DPO and DevOps Educator",
+    "description": "Moyosore Baiye is a Senior DevSecOps Engineer, Certified Data Protection Officer and DevOps educator based in Lagos, Nigeria, working remotely worldwide on AWS, Kubernetes, Terraform and HIPAA, GDPR and NDPR compliance."
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "theme": "Switch between light and dark theme",
+    "cv": "Download CV (PDF)",
+    "cv_short": "CV",
+    "visit": "Visit site",
+    "footer": "All rights reserved."
+  },
+  "nav": {
+    "focus": "Focus",
+    "experience": "Experience",
+    "platforms": "Platforms",
+    "teaching": "Teaching",
+    "credentials": "Credentials",
+    "contact": "Contact"
+  },
+  "hero": {
+    "roles": [
+      "Senior DevSecOps Engineer",
+      "Certified DPO",
+      "DevOps Educator"
+    ],
+    "title": "I keep regulated cloud platforms secure, compliant and running.",
+    "lead": "I have spent 6+ years building and securing cloud platforms for healthcare and the public sector. Today I lead DevOps and data protection at Octosoft Technologies, build commercial products from the ground up, and teach engineers what production really demands."
+  },
+  "facts": {
+    "location": "Based in",
+    "location_value": "Lagos, Nigeria",
+    "time": "Local time",
+    "work": "Works",
+    "work_value": "Remotely, worldwide",
+    "status": "Status",
+    "status_value": "Open to senior cloud, security and advisory roles"
+  },
+  "metrics": [
+    {
+      "value": "99.99%",
+      "label": "application uptime on healthcare infrastructure"
+    },
+    {
+      "value": "60%",
+      "label": "lower mean time to detect incidents"
+    },
+    {
+      "value": "70%+",
+      "label": "shorter release cycles"
+    },
+    {
+      "value": "< 30 min",
+      "label": "to provision a cloud environment, down from days"
+    }
+  ],
+  "focus": {
+    "tag": "What I do",
+    "title": "Four disciplines, one job: systems people can trust.",
+    "items": [
+      {
+        "title": "DevSecOps",
+        "text": "Security built into delivery: vulnerability scanning in CI/CD, least-privilege IAM, secrets management and threat modeling."
+      },
+      {
+        "title": "Data protection",
+        "text": "Certified DPO work for healthcare platforms: impact assessments (DPIAs), privacy by design, and alignment with HIPAA, GDPR and Nigeria's NDPR."
+      },
+      {
+        "title": "Cloud and platform engineering",
+        "text": "Multi-AZ AWS and Azure architecture, reusable Terraform modules, Kubernetes, and observability with Prometheus and Grafana."
+      },
+      {
+        "title": "Education",
+        "text": "Hands-on training in Linux, Docker, Kubernetes, AWS and CI/CD, plus mentoring for engineers moving into cloud and platform roles."
+      }
+    ]
+  },
+  "experience": {
+    "tag": "Experience",
+    "title": "Where I have done the work",
+    "present": "Present",
+    "items": [
+      {
+        "role": "DevOps Team Lead and Certified Data Protection Officer",
+        "sector": "HealthTech",
+        "place": "Lagos, Nigeria",
+        "bullets": [
+          {
+            "label": "Cloud and security leadership",
+            "text": "Lead the team that architects, automates and maintains HIPAA-aligned AWS infrastructure for healthcare software used by clinics and patients nationwide."
+          },
+          {
+            "label": "Data protection",
+            "text": "Lead DPIAs, own privacy policy, secure protected health information and enforce NDPR and HIPAA controls end to end."
+          },
+          {
+            "label": "Infrastructure as code",
+            "text": "Built reusable Terraform modules and CloudFormation templates for multi-tenant environments, cutting provisioning from days to under 30 minutes."
+          },
+          {
+            "label": "CI/CD",
+            "text": "Standardized GitHub Actions pipelines with Trivy and Snyk scanning, automated tests and zero-downtime releases."
+          },
+          {
+            "label": "Observability",
+            "text": "Built central monitoring on CloudWatch, Prometheus and Grafana, reaching 99.99% uptime and reducing mean time to detect by 60%."
+          },
+          {
+            "label": "Culture",
+            "text": "Run hands-on workshops and mentor engineers and interns on cloud security, CI/CD and containers."
+          }
+        ]
+      },
+      {
+        "role": "IT Manager",
+        "sector": "Public sector",
+        "place": "Lagos, Nigeria",
+        "bullets": [
+          {
+            "label": "",
+            "text": "Ran end-to-end IT infrastructure and citizen-facing digital platforms at 99.9% uptime across agency operations."
+          },
+          {
+            "label": "",
+            "text": "Improved system throughput and response times by 50% through query optimization, caching and network tuning."
+          },
+          {
+            "label": "",
+            "text": "Enforced government data protection rules with role-based access control, network segmentation and automated backups."
+          }
+        ]
+      },
+      {
+        "role": "AWS / Linux Systems Trainee",
+        "sector": "Cloud infrastructure",
+        "place": "Remote",
+        "bullets": [
+          {
+            "label": "",
+            "text": "Configured high-availability multi-AZ AWS topologies with load balancers and Auto Scaling groups."
+          },
+          {
+            "label": "",
+            "text": "Automated provisioning and configuration baselines with Ansible, Docker and Jenkins."
+          },
+          {
+            "label": "",
+            "text": "Set up CloudWatch alarms and fine-grained IAM policies for compute and serverless resources."
+          }
+        ]
+      },
+      {
+        "role": "DevOps Intern",
+        "sector": "Fintech",
+        "place": "Lagos, Nigeria",
+        "bullets": [
+          {
+            "label": "",
+            "text": "Built standardized Docker images and supported Jenkins deployment pipelines."
+          },
+          {
+            "label": "",
+            "text": "Configured Linux environments and core identity services, including DNS, LDAP and SSH key management."
+          }
+        ]
+      }
+    ]
+  },
+  "platforms": {
+    "tag": "Platforms",
+    "title": "Built from the ground up, running in production",
+    "confidential": "Private client platform",
+    "items": [
+      {
+        "title": "VeriBuy",
+        "role": "Co-founder and CTO",
+        "text": "A marketplace for pre-owned electronics, with automated 15-digit IMEI verification, GSMA blacklist checks, full Stripe escrow with a 48-hour buyer inspection window, and live auctions with anti-sniping."
+      },
+      {
+        "title": "CleanCoat Contractors",
+        "role": "Full-stack engineer and cloud architect",
+        "text": "The commercial platform for a UK-based cleaning contractor, with instant multi-service quote calculators, a mobile-first experience and automated CI/CD deployments."
+      },
+      {
+        "title": "Havilah Image Developments",
+        "role": "Full-stack architect",
+        "text": "The corporate portal and investment yield engine for an architect-led real estate firm in Nigeria, with ROI modeling, a project showcase and secure client inquiries."
+      },
+      {
+        "title": "HealthTech cloud platform",
+        "role": "Lead DevOps architect",
+        "text": "A HIPAA-aligned AWS foundation for healthcare software, delivering 99.99% uptime, least-privilege IAM, encryption at rest and in transit, and 70% faster client deployments."
+      }
+    ]
+  },
+  "teaching": {
+    "tag": "Teaching",
+    "title": "I help engineers get ready for production.",
+    "lead": "Cloud engineering skills should be within reach wherever you start from. My teaching is practical: real scenarios, real tools, and honest career advice.",
+    "items": [
+      {
+        "title": "Curriculum and workshops",
+        "text": "Hands-on programs covering zero-downtime CI/CD, Kubernetes, Terraform and Linux hardening."
+      },
+      {
+        "title": "Mentoring",
+        "text": "One-to-one guidance for junior engineers, sysadmins and developers moving into DevOps, including CV reviews, mock interviews and portfolio projects."
+      },
+      {
+        "title": "Team culture",
+        "text": "Training product and engineering teams on automated testing, shift-left security and shared responsibility for reliability."
+      }
+    ]
+  },
+  "credentials": {
+    "tag": "Credentials",
+    "title": "Certifications and education",
+    "certs_title": "Certifications",
+    "edu_title": "Education",
+    "distinction": "Distinction"
+  },
+  "skills": {
+    "tag": "Toolbox",
+    "title": "What I work with",
+    "groups": [
+      "Security and governance",
+      "Cloud and infrastructure",
+      "Containers",
+      "CI/CD and automation",
+      "Observability",
+      "Software"
+    ]
+  },
+  "contact": {
+    "tag": "Contact",
+    "title": "Need senior DevSecOps leadership, data protection guidance or DevOps training?",
+    "text": "Tell me what you are working on. I work with teams across time zones from Lagos (UTC+1).",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "months": [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ]
+}
